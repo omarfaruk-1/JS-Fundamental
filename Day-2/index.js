@@ -19,5 +19,5 @@ console.log("Day-2 Js");
 -----------------Specifier---------------
 var: Function scope and can be redeclared
 let: Block scope,can be reassigned
-const: Block scope,can not reassigned
+const: Block scope,can not reassigned    
 */
