@@ -20,10 +20,8 @@ let: Block scope,can be reassigned
 const: Block scope,can not reassigned    
 
 # Data types
-
-// data types 
-/*
-? Primitive data types: These are basic data types like string,number,boolean,undefine,null,bigint,symbol
+ 
+Primitive data types: These are basic data types like string,number,boolean,undefine,null,bigint,symbol
 
 string: text value ("hello")
 number: numeric value (20,3.4-> floating value)
@@ -34,11 +32,11 @@ big int: bigger number(929832873298432)
 symbol: unique identifiers (Symbol('"id"))
 
 
-? Non-Primitive data type: complex data type these are objects, array and function
+Non-Primitive data type: complex data type these are objects, array and function
 
 object: collection of key value pairs
 array: ordered list of value
 function: code that can be execute
 
 
-*/
+
