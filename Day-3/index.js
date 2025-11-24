@@ -47,6 +47,38 @@ let obj2={name:"Omar"}
 console.log(obj1===obj2);//false because both are different memory location or address here check is it same memory.
 console.log(obj1 !==obj2); //true
 
+// ?Logical Operator AND (&&), OR (||), NOT (!), NULLISH (??)
+
+console.log(false&&false);
+console.log(false&&true);
+console.log(true&&false);
+console.log(true&&true);
+console.log("Banana"&&"Apple");
+
+
+console.log(false||false);
+console.log(false||true);
+console.log(true||false);
+console.log(true||true);
+console.log(true||false);
+console.log("Banana"||"Apple");
+
+
+
+console.log(!true)//toggle
+
+let x=null??3;
+let y=false??4;
+console.log(x);
+console.log(y);
+
+
+let age=34;
+age>=50?console.log("I am senior"):console.log("I not senior citizen");
+
+
+
+
 
 
 
