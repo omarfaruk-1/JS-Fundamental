@@ -13,11 +13,14 @@
 # Problem 7 — Reverse Number & Palindrome Check n=12321
 
 # Problem 8 — Nested Loops: Pattern   
-*  
-**  
-***  
-****  
-*****  
+
+<pre>
+*
+**
+***
+****
+*****
+</pre> 
 
 1  
 12  
