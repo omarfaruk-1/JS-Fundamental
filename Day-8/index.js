@@ -1,0 +1,1 @@
+// In execution context after code execution it remove from stack and heaps
