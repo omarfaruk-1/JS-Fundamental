@@ -1,7 +1,7 @@
 
 //? Guessing Number game
 
-export function guessingNumber (){
+function guessingNumber (){
 
     let userPrompt=prompt("Enter a number between 1 to 10");
     let userChoose=Number(userPrompt);
@@ -37,4 +37,4 @@ export function guessingNumber (){
     return;
 }guessingNumber;
 
-// guessingNumber();
+guessingNumber();

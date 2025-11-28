@@ -86,3 +86,5 @@ age>=50?console.log("I am senior"):console.log("I not senior citizen");
 
 
 
+
+

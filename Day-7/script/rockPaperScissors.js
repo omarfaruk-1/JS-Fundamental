@@ -1,7 +1,7 @@
 
-//? ROCKPAPERSCISSORS 
+//? ROCK PAPER SCISSORS 
 
-export function rockPaperScissors (){
+function rockPaperScissors (){
 
 
     //? for user input need to use html page 
@@ -54,3 +54,5 @@ export function rockPaperScissors (){
     }
     
 }
+
+rockPaperScissors()
