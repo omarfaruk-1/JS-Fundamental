@@ -248,3 +248,6 @@ let data = {
 let f = data.inc;
 f();
 console.log(data.count);
+
+
+
