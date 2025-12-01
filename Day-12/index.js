@@ -198,9 +198,24 @@ console.log(name,mark);
 
 function  createCar(brand,speed){
     return {
+        brand,
+        speed,
+        accelerate(){
+            this.speed += 10;
+            return this.speed;
+        },
+        break(){
+            this.speed -= 10;
+            return this.speed;
+        }
 
     }
 }
+
+let car5 =createCar("BMW",110)
+console.log(car5.accelerate());
+console.log(car5.break());
+
 
 
 
@@ -210,3 +225,26 @@ function  createCar(brand,speed){
 const {a = 10, b = 20} = { b: 5 };
 
 console.log(a, b);
+
+
+const user1 = {
+  name: "Omar",
+  get() {
+    return this.name;
+  }
+};
+
+const fn = user1.get;
+console.log(fn());
+
+
+let data = {
+  count: 0,
+  inc() {
+    this.count++;
+  }
+};
+
+let f = data.inc;
+f();
+console.log(data.count);
