@@ -221,12 +221,12 @@ console.log(car5.break());
 
 
 
-
+// target object with replace source object key value if have common key
 const {a = 10, b = 20} = { b: 5 };
 
 console.log(a, b);
 
-
+//? test-1 
 const user1 = {
   name: "Omar",
   get() {
@@ -238,6 +238,7 @@ const fn = user1.get;
 console.log(fn());
 
 
+//? test-2 
 let data = {
   count: 0,
   inc() {
@@ -250,4 +251,67 @@ f();
 console.log(data.count);
 
 
+//? test-3 
+const obj = {name: "Omar"};
+delete obj.name;
+console.log("name" in obj);
 
+
+
+
+
+//? test-4
+const user3 = { name: "Omar" };
+const { name4 = "Unknown", age = 25 } = user3;
+console.log(name4, age);
+
+
+
+//? test-5
+const child = {
+  value: 20,
+  get() {
+    return super.value;
+  }
+};
+
+Object.setPrototypeOf(child, { value: 100 });
+
+console.log(child.get());
+
+
+//? test-6
+const obj9 = { 
+    a: { 
+        b: {
+             c: 5 
+            
+        } 
+    } 
+};
+
+const {a: {b: { c = 10} }} = obj9;
+
+console.log(c);
+
+
+
+//? test-7
+const obj5 = {
+  value: 100,
+  getValue: function() { return this.value; }
+};
+
+const fn1 = obj5.getValue;
+console.log(fn1());
+
+//? test-8
+const parent = {
+  value: 60,
+  getValue() { return this.value; }
+};
+
+const child1 = Object.create(parent);
+child1.value = 70;
+
+console.log(child1.getValue());
