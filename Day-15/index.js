@@ -26,6 +26,9 @@ fruit.shift(); //unshift return removed element
 
 // array copy and colon 
 const fruit1= fruit.slice();
+console.log(fruit1[2]="omar");
+console.log(fruit1,fruit);
+
 
 console.log(Array.isArray(fruit));
 
