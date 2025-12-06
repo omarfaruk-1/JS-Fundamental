@@ -1,6 +1,6 @@
 const num = [1,3,2,4,5,61,7];
 
-num.sort(desNum);
+num.sort(desString);
 
 console.log(num);
 
@@ -24,7 +24,6 @@ function desString(a,b){
 
 
 //? splice
-
 
 const array = [1,2,3,4,5,6,7,8,9];
 array.splice(3,0,50); //? 3 index number 0 how many number we want delete from array and 50 new value 
